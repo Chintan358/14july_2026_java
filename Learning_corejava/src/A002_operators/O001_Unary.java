@@ -4,7 +4,7 @@ public class O001_Unary {
 	public static void main(String[] args) {
 		
 		
-		// ++pre,--pre,post++,post--
+		// ++pre,--pre , post++,post--
 		
 		int a = 10;
 		int b = a-- + --a - ++a + ++a - a--;
