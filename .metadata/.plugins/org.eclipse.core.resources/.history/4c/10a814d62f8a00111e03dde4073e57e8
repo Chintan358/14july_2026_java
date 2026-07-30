@@ -1,0 +1,23 @@
+package A003_Statements;
+
+public class S001_Conditional {
+	public static void main(String[] args) {
+		
+		
+		int age = 19;
+		
+		if(age>=18)
+		{
+			System.out.println("Elegeble for vote");
+		}
+		else
+		{
+			System.out.println("Not elegeble for vote");
+		}
+				
+		
+		
+		
+		
+	}
+}

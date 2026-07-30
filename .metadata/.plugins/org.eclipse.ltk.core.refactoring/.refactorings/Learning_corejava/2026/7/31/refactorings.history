@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;A004_Logical.L002_Primary&apos; to &apos;L002_Primenumber&apos;&#x0D;&#x0A;- Original project: &apos;Learning_corejava&apos;&#x0D;&#x0A;- Original element: &apos;A004_Logical.L002_Primary&apos;&#x0D;&#x0A;- Renamed element: &apos;A004_Logical.L002_Primenumber&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;L002_Primary&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;A004_Logical{L002_Primary.java[L002_Primary" matchStrategy="1" name="L002_Primenumber" qualified="false" references="true" similarDeclarations="false" stamp="1785380340992" textual="false" version="1.0"/>
+</session>

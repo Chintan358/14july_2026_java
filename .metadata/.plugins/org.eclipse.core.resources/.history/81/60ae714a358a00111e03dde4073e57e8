@@ -1,0 +1,97 @@
+package A003_Statements;
+
+import java.util.Scanner;
+
+public class S001_Conditional {
+	public static void main(String[] args) {
+		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter age : ");
+//		int age = sc.nextInt();
+//		if(age>=18)
+//		{
+//			System.out.println("Elegeble for vote");
+//		}
+//		else
+//		{
+//			System.out.println("Not elegeble for vote");
+//		}
+				
+		
+		int a = 10;
+		int b = 20;
+		int c = 30;
+		
+//		if(a>b)
+//		{
+//			if(a>c) {
+//			System.out.println("A is greater");
+//			}
+//			else
+//			{
+//				System.out.println("C is greater");
+//			}
+//		}
+//		else
+//		{
+//			if(b>c) {
+//			System.out.println("B is greater");}
+//			else
+//			{
+//				System.out.println("C is greater");
+//			}
+//		}
+		
+		
+//		if(a>b && a>c)
+//		{
+//			System.out.println("A is greater");
+//		}
+//		else if(b>a && b>c)
+//		{
+//			System.out.println("B is greater");
+//		}
+//		else if(c>a && c>b)
+//		{
+//			System.out.println("c is greater");
+//		}
+//		else {
+//			System.out.println("Somthing went wrong");
+//		}
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter marks : ");
+		int marks = sc.nextInt();
+		String grade = "";
+		if(marks>90 && marks<=100)
+		{
+			grade="A";
+		}
+		else if(marks>70 && marks<=90)
+		{
+			grade="B";
+		}
+		else if(marks>50 && marks<=70)
+		{
+			grade="C";
+		}
+		else if(marks>35 && marks<=50)
+		{
+			grade = "D";
+		}
+		else if(marks>=0 && marks<=35)
+		{
+			grade = "F";
+		}
+		else
+		{
+			grade = "Invalid input";
+		}
+		
+		
+		System.out.println(grade);
+		
+		
+	}
+}

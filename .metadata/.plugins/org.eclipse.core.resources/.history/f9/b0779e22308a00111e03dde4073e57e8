@@ -1,0 +1,12 @@
+package A001_basic;
+
+public class ScanerDemo {
+	public static void main(String[] args) {
+		
+		
+		
+		int a = 10;
+		System.out.println(a);
+		
+	}
+}
