@@ -1,0 +1,42 @@
+package A006_Array;
+
+public class A001_ArrayDemo {
+	public static void main(String[] args) {
+		
+//		//declaration
+//		int a[] = new int[10];
+//		
+//		//initialization
+//		a[0] = 10;
+//		a[1] = 20;
+//		a[2] = 30;
+//		a[3] = 40;
+//		a[4] = 50;
+//	
+//		for(int i=0;i<a.length;i++)
+//		{
+//			System.out.println(a[i]);
+//		}
+		
+		
+//		int a[] = {10,20,30,40,50,60};
+//		
+//		for (int i = 0; i < a.length; i++)
+//		{
+//			System.out.println(a[i]);
+//		}
+//		
+//		
+//		String sub[] = {"java","python","android","node"};
+//		for (int i = 0; i < sub.length; i++) {
+//			System.out.println(sub[i]);
+//		}
+		
+		
+//		char ch[] = {'a','b','c','d','e','f'};
+//		for (int i = 0; i < ch.length; i++) {
+//			System.out.println(ch[i]);
+//		}
+		
+	}
+}
