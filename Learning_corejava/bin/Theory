@@ -52,6 +52,15 @@ conditional : if-else , switch-case
 looping : for, while, do-while
 control : break, continue
 
+===================================================================================
+===================================================================================
+OOPs:
+class
+object
+inheritance
+polymorphism
+encaptulation
+abstraction
 
 
 

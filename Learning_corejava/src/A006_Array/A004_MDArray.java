@@ -1,0 +1,54 @@
+package A006_Array;
+
+public class A004_MDArray {
+	public static void main(String[] args) {
+		
+//		int a[][] = new int[3][5];
+//		
+//		a[0][0] = 25;
+//		a[0][1] = 30;
+//		a[0][2] = 40;
+//		a[0][3] = 34;
+//		a[0][4] = 42;
+//		
+//		a[1][0] = 27;
+//		a[1][1] = 31;
+//		a[1][2] = 42;
+//		a[1][3] = 30;
+//		a[1][4] = 24;
+//		
+//		a[2][0] = 17;
+//		a[2][1] = 11;
+//		a[2][2] = 22;
+//		a[2][3] = 20;
+//		a[2][4] = 28;
+//		
+//		
+//		
+//		for(int i=0;i<3;i++)
+//		{
+//			for(int j=0;j<5;j++)
+//			{
+//				System.out.print(a[i][j]+" ");
+//			}
+//			System.out.println();
+//		}
+		
+		
+//		int temp[][] = new int[3][4];
+		
+		int temp[][] = {{10,20,30,45},{45,65,23,45},{45,12,36,52}};
+		
+		
+		for(int i=0;i<3;i++)
+		{
+			for(int j=0;j<4;j++)
+			{
+				System.out.print(temp[i][j]+" ");
+			}
+			System.out.println();
+		}
+		
+		
+	}
+}
