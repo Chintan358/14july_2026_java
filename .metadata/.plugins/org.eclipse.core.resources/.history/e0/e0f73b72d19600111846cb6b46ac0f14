@@ -1,0 +1,13 @@
+package A007_oops;
+
+class Student
+{
+	
+}
+
+public class O002_constructorDemo {
+	public static void main(String[] args) {
+		
+		Student st = new Student();
+	}
+}

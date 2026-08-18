@@ -1,0 +1,55 @@
+package A007_oops;
+
+//parent -super - base
+class A
+{
+	int id = 10;
+	public void display()
+	{
+		System.out.println("Class A display calling");
+	}
+}
+
+//child - sub - derived
+class B extends A
+{
+	int id = 100;
+	public void test()
+	{
+		int id = 200;
+		System.out.println(super.id);
+		System.out.println(this.id);
+		System.out.println(id);
+		System.out.println("Test calling");
+	}
+}
+
+//multilevel
+//class C extends B{
+//	
+//}
+
+//hirarchicle 
+//class C extends A
+//{
+//	
+//}
+
+//multiple - not supported in java
+//class C extends A,B
+//{
+//	
+//}
+
+
+public class O005_Inheritance {
+	public static void main(String[] args) {
+		
+//			B b = new B();
+//			b.test();
+			
+			A a = new A();
+		
+					
+	}
+}

@@ -1,0 +1,27 @@
+package A007_oops;
+
+class X
+{
+	int id;
+}
+
+class Y extends X
+{
+	int name;
+}
+public class O007_Casting {
+	public static void main(String[] args) {
+		
+		
+		
+		
+		//upcasting
+		//X x = new Y(); //id, name
+		
+		//downcasting
+		//Y y = new X(); //id
+		
+		System.out.println(new X() instanceof Y);
+		System.out.println(new Y() instanceof X);
+	}
+}

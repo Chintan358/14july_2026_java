@@ -1,0 +1,34 @@
+package A007_oops;
+
+class P
+{
+	P()
+	{
+		System.out.println("P const. calling");
+	}
+}
+
+
+class Q
+{
+	Q()
+	{
+		System.out.println("Q const. calling");
+	}
+}
+
+class R extends Q
+{
+	 R()
+	 {
+		 System.out.println("R const  calling");
+	 }
+}
+
+public class O006_constructorChaining {
+	public static void main(String[] args) {
+		
+		R r = new R();
+		
+	}
+}

@@ -1,0 +1,35 @@
+package A007_oops;
+
+class User
+{
+	String name;
+	String email;
+	String phone;
+	
+	User(String name,String email, String phone)
+	{
+		this.name = name;
+		this.email = email;
+		this.phone = phone;
+	}
+	
+	public void display()
+	{
+		System.out.println(name+" "+email+" "+phone);
+	}
+	
+	
+	
+}
+
+public class O004_ConstructoreDemo {
+	public static void main(String[] args) {
+		
+		User u = new User("Manoj","manoj@gmail.com","9999999999");
+		u.display();
+		
+		User u1 = new User("Om","om@gmail.com","5465656565");
+		u1.display();
+		
+	}
+}

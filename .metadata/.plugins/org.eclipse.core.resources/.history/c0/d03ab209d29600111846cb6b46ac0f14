@@ -1,0 +1,41 @@
+package A007_oops;
+
+class Student
+{
+//	Student()
+//	{
+//		System.out.println("Student calling....");
+//	}
+//	
+//	Student(int a)
+//	{
+//		System.out.println(a);
+//	}
+//	
+//	Student(String name)
+//	{
+//		System.out.println(name);
+//	}
+	
+	int id;
+	String name;
+	String email;
+	
+	public void display()
+	{
+		System.out.println(id+" "+name+" "+email);
+	}
+	
+}
+
+public class O002_constructorDemo {
+	public static void main(String[] args) {
+		
+//		Student st = new Student();
+//		Student st1 = new Student(10);
+//		Student st2 = new Student("Manoj");
+		
+		Student st  =new Student();
+		st.display();
+	}
+}

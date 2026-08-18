@@ -1,0 +1,22 @@
+package A007_oops;
+
+class Test
+{
+	Test()
+	{
+		System.out.println("calling");
+	}
+}
+
+
+public class O003_Constructor {
+	public static void main(String[] args) {
+		
+		
+		Test t  =new Test();
+		Test t1  =new Test();
+		Test t2  =new Test();
+		
+		
+	}
+}

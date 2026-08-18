@@ -1,0 +1,27 @@
+package A007_oops;
+
+class A
+{
+	int id = 10;
+	public void display()
+	{
+		System.out.println("Class A display calling");
+	}
+}
+
+class B
+{
+	public void test()
+	{
+		System.out.println("Test calling");
+	}
+}
+
+public class O005_Inheritance {
+	public static void main(String[] args) {
+		
+			B b = new B();
+			b.test();
+		
+	}
+}
