@@ -7,4 +7,11 @@
     <fullyQualifiedTypeName name="A007_oops.User"/>
     <fullyQualifiedTypeName name="A007_oops.B"/>
     <fullyQualifiedTypeName name="A007_oops.R"/>
+    <fullyQualifiedTypeName name="A007_oops.Access"/>
+    <fullyQualifiedTypeName name="A007_oops.Employee"/>
+    <fullyQualifiedTypeName name="A007_oops.Calc"/>
+    <fullyQualifiedTypeName name="A007_oops.Calc1"/>
+    <fullyQualifiedTypeName name="A007_oops.Parent"/>
+    <fullyQualifiedTypeName name="A007_oops.child"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

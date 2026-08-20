@@ -1,6 +1,10 @@
 package A001_basic;
 
-public class Demo {
+import A007_oops.Access;
+
+public class Demo extends Access {
+	
+	
 	public static void main(String[] args) {
 		
 //		System.out.println("Hello");
@@ -12,6 +16,13 @@ public class Demo {
 		String myFirstName = "omprasad";
 		
 
+		
+		Access ac = new Access();
+		ac.id = 30;
+		ac.name="ffd";
+		
+	
+		
 		
 	}
 }
