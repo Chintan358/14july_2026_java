@@ -22,7 +22,7 @@ public class O012_MethodOverrinding {
 	public static void main(String[] args) {
 		
 		child c = new child();
-		c.display();
+		//c.display();
 		c.display(10);
 		
 	}
