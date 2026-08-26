@@ -22,13 +22,17 @@ String - string is a class in java
 1024 mb - 1 gb
 1024 gb - 1 tb
 
-
-
-
-
-
 Operators
+*******************************
+
+
+
 Statements
+conditional : if-else / switch-case
+looping : for, while, do-while
+control : break, continue
+
+
 Array
 Logical
 
