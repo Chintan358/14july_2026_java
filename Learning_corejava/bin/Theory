@@ -62,7 +62,25 @@ polymorphism
 encaptulation
 abstraction
 
+=====================
+Abstract class : partial abstraction
+-abstract method - instance method
 
+Interface : fully abstraction
+-abstract method
+
+
+abstract method : 
+method without body
+
+public void display();
+
+
+instance method : 
+public void dispaly()
+{
+	//code
+}
 
 
 
