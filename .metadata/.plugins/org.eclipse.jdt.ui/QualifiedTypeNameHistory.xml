@@ -11,12 +11,13 @@
     <fullyQualifiedTypeName name="A007_oops.Parent"/>
     <fullyQualifiedTypeName name="A007_oops.child"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="A007_oops.AbsImpl"/>
     <fullyQualifiedTypeName name="A007_oops.Access"/>
     <fullyQualifiedTypeName name="A007_oops.Saving"/>
     <fullyQualifiedTypeName name="A007_oops.Account"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="A007_oops.Loan"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
