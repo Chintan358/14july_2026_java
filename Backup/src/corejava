@@ -37,3 +37,38 @@ Array
 Logical
 
 OOPs
+*********************************
+class : logical entity
+object  :realtime entity
+
+-data memeber / function member
+- member can be of 2 types : 
+- 1 : Static  /class
+- 2 : Non - Static / instance
+
+- constructor - one type of method same name as a class name and without return type
+
+inheritance
+Polymorphism
+Encaptulation
+abstraction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

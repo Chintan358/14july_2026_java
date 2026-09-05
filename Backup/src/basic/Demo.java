@@ -1,6 +1,11 @@
 package basic;
 
-public class Demo {
+import oops.O006_AccessModifier;
+
+public class Demo extends O006_AccessModifier {
+	
+	
+	
 	public static void main(String[] args) {
 
 //		int a = 10;
@@ -15,6 +20,12 @@ public class Demo {
 		int id = 10; // name should be meaneingful - dont use abbriviation
 		int ABC = 10; // name shouldbe in lower case
 		String firstName = "yash"; // camelcase
+		
+		
+//		O006_AccessModifier am = new O006_AccessModifier();
+//		System.out.println(am.id);
+//		am.display();
+		
 		
 		
 	}
