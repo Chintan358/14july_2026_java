@@ -27,5 +27,6 @@ public class O010_abstractDemo {
 		
 		AbsImpl abs = new AbsImpl();
 		abs.sample();
+		abs.display();
 	}
 }

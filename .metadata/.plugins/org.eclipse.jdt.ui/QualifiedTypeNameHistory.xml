@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="A007_oops.Account"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="A007_oops.Loan"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="practice.Payment"/>
     <fullyQualifiedTypeName name="practice.CardPayment"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -31,4 +30,12 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="oops.Student"/>
+    <fullyQualifiedTypeName name="oops.Calc"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="oops.O006_AccessModifier"/>
+    <fullyQualifiedTypeName name="oops.User"/>
+    <fullyQualifiedTypeName name="oops.Test"/>
+    <fullyQualifiedTypeName name="oops.Child"/>
+    <fullyQualifiedTypeName name="oops.AbsImpl"/>
 </qualifiedTypeNameHistroy>
