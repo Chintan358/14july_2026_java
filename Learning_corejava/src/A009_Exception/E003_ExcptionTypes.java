@@ -13,8 +13,9 @@ public class E003_ExcptionTypes {
 //		System.out.println(i);
 		
 		
-		String str = "dsfds";
-		System.out.println(str.charAt(10));
+//		String str = "dsfds";
+//		System.out.println(str.charAt(10));
+		
 		
 		
 		

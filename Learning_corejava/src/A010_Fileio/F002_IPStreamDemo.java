@@ -1,0 +1,38 @@
+package A010_Fileio;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class F002_IPStreamDemo {
+	public static void main(String[] args) {
+		
+		FileInputStream fis =null;
+		try {
+			 
+		    fis = new FileInputStream("D://files//test.txt");
+			int i = fis.read();
+			while(i!=-1)
+			{
+				char ch = (char) i;
+				System.out.print(ch);
+				i = fis.read();
+			}
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally {
+			if(fis!=null)
+			{
+				try {
+					fis.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+}
