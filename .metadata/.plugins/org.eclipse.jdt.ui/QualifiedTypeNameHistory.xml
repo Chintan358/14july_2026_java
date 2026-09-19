@@ -53,4 +53,10 @@
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="A010_Fileio.F004_FileClass"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="A011_thread.T1"/>
+    <fullyQualifiedTypeName name="A011_thread.Th1"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="A011_thread.Th2"/>
+    <fullyQualifiedTypeName name="A011_thread.Sample"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
