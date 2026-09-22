@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="A007_oops.Student"/>
-    <fullyQualifiedTypeName name="A007_oops.Test"/>
-    <fullyQualifiedTypeName name="A007_oops.User"/>
-    <fullyQualifiedTypeName name="A007_oops.B"/>
-    <fullyQualifiedTypeName name="A007_oops.R"/>
-    <fullyQualifiedTypeName name="A007_oops.Employee"/>
-    <fullyQualifiedTypeName name="A007_oops.Calc"/>
-    <fullyQualifiedTypeName name="A007_oops.Calc1"/>
-    <fullyQualifiedTypeName name="A007_oops.Parent"/>
-    <fullyQualifiedTypeName name="A007_oops.child"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="A007_oops.AbsImpl"/>
     <fullyQualifiedTypeName name="A007_oops.Access"/>
@@ -36,7 +26,6 @@
     <fullyQualifiedTypeName name="oops.AbsImpl"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="A009_Exception.Demo"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="A009_Exception.Bank"/>
     <fullyQualifiedTypeName name="java.lang.IncompatibleClassChangeError"/>
     <fullyQualifiedTypeName name="java.lang.Runtime"/>
@@ -48,15 +37,27 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="A010_Fileio.F004_FileClass"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="A011_thread.T1"/>
     <fullyQualifiedTypeName name="A011_thread.Th1"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="A011_thread.Th2"/>
     <fullyQualifiedTypeName name="A011_thread.Sample"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="A011_thread.Customer"/>
+    <fullyQualifiedTypeName name="A011_thread.Account"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="A011_thread.Table"/>
+    <fullyQualifiedTypeName name="A011_thread.Calc"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
