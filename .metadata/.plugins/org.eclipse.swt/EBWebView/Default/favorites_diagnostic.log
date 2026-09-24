@@ -1156,3 +1156,22 @@
 2026-09-22 03:32:49.005: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-09-22 03:32:49.005: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-09-22 04:24:30.583: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-24 04:07:54.165: [INFO] CurrentProfilePath: D:\Chintan_wok\14july_2026_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-24 04:07:54.165: [INFO] Profiles total count: 1
+2026-09-24 04:07:54.166: [INFO] Profile: name=Profile 1 path=D:\Chintan_wok\14july_2026_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-07-28T03:00:44.497Z
+2026-09-24 04:07:54.166: [INFO] LastUsedProfileDir: D:\Chintan_wok\14july_2026_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-24 04:07:54.166: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Chintan_wok\14july_2026_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-07-28T03:00:44.497Z
+2026-09-24 04:07:54.166: [INFO] OnDoneLoading sync enabled: 0
+2026-09-24 04:07:54.166: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-24 04:07:54.166: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-24 04:07:54.166: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-24 05:09:07.576: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-24 05:09:26.102: [INFO] CurrentProfilePath: D:\Chintan_wok\14july_2026_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-24 05:09:26.102: [INFO] Profiles total count: 1
+2026-09-24 05:09:26.102: [INFO] Profile: name=Profile 1 path=D:\Chintan_wok\14july_2026_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-07-28T03:00:44.497Z
+2026-09-24 05:09:26.102: [INFO] LastUsedProfileDir: D:\Chintan_wok\14july_2026_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-24 05:09:26.102: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Chintan_wok\14july_2026_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-07-28T03:00:44.497Z
+2026-09-24 05:09:26.102: [INFO] OnDoneLoading sync enabled: 0
+2026-09-24 05:09:26.102: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-24 05:09:26.102: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-24 05:09:26.102: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
