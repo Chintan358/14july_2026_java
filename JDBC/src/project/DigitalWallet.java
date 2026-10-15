@@ -59,7 +59,59 @@ public class DigitalWallet
 				int i = op.login(uname,pass);
 				if(i>0)
 				{
+					
 					System.out.println("****Login success****");
+					String t_cont="y";
+					do {
+					System.out.println("Enter Transaction operation : ");
+					System.out.println("1 : Check balance");
+					System.out.println("2 : Deposite");
+					System.out.println("3 : Withdrow");
+					System.out.println("4 : Transaction History");
+					int t_choice  =sc.nextInt();
+					if(t_choice==1)
+					{
+						op.checkBalance(i);
+					}
+					else if(t_choice==2)
+					{
+						System.out.println("****Deposite****");
+						System.out.println("Enter amount : ");
+						double amount = sc.nextDouble();
+						System.out.println("Enter details : ");
+						String details = sc.next();
+						int k = op.deposite(i, amount, details);
+						if(k>0)
+						{
+							System.out.println("Amount credeted in your Account !");
+						}
+					}
+					else if(t_choice==3)
+					{
+						System.out.println("****Expance****");
+						System.out.println("Enter amount : ");
+						double amount = sc.nextDouble();
+						System.out.println("Enter details : ");
+						String details = sc.next();
+						int k = op.expance(i, amount, details);
+						if(k>0)
+						{
+							System.out.println("Amount Debited in your Account !");
+						}
+					}
+					else if(t_choice==4)
+					{
+						op.histroy(i);
+					}
+					else
+					{
+						System.out.println("Invalid transaction !!!");
+					}
+						System.out.println("do you want to continue trnasaction ? y or n");
+						t_cont=sc.next();
+					}
+					while(t_cont.equals("y"));
+					
 				}
 				else
 				{
