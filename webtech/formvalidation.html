@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        .form-container {
+            width: 400px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #777;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 7px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .form-group input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 6px rgba(102, 126, 234, 0.4);
+        }
+
+        .password-box {
+            position: relative;
+        }
+
+        .password-box input {
+            padding-right: 70px;
+        }
+
+        .show-password {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            border: none;
+            background: none;
+            color: #667eea;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .error {
+            color: #e74c3c;
+            font-size: 12px;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .register-btn {
+            width: 100%;
+            padding: 13px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .register-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .register-btn:disabled {
+            width: 100%;
+            padding: 13px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #a6a6b4, #bebed4);
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .login-text {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .login-text a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .success {
+            display: none;
+            text-align: center;
+            color: #27ae60;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 450px) {
+            .form-container {
+                width: 90%;
+                padding: 25px;
+            }
+        }
+    </style>
+
+
+    <script>
+
+        function validation() {
+
+            var username = document.getElementById("username").value
+            var email = document.getElementById("email").value
+            var phone = document.getElementById("phone").value
+            var password = document.getElementById("password").value
+            var confirmPassword = document.getElementById("confirmPassword").value
+
+            var unameErr = document.getElementById("unameErr")
+            var emailErr = document.getElementById("emailErr")
+            var phoneErr = document.getElementById("phoneErr")
+            var passErr = document.getElementById("passErr")
+            var cpassErr = document.getElementById("cpassErr")
+
+            var btn = document.getElementById("btn")
+
+            var unameExp = /^[a-z0-9]+$/
+
+            var emailExp = /^[a-z0-9_-]+@[a-z]+\.[a-z]{2,4}$/
+
+            var phoneExp = /^[0-9]{10}$/
+
+
+            var flag = false
+
+            if (username == null || username == "") {
+                unameErr.innerHTML = "Username required"
+                flag = false
+                btn.disabled = true
+
+            }
+            else if (!unameExp.test(username)) {
+                unameErr.innerHTML = "Only char. allowed"
+                flag = false
+                btn.disabled = true
+            }
+            else {
+                unameErr.innerHTML = ""
+                flag = true
+                btn.disabled = false
+            }
+
+            if (email == null || email == "") {
+                emailErr.innerHTML = "Email required"
+                flag = false
+                btn.disabled = true
+            }
+            else if (!emailExp.test(email)) {
+                emailErr.innerHTML = "Invalid email format"
+                flag = false
+                btn.disabled = true
+            }
+            else {
+
+                emailErr.innerHTML = ""
+                flag = true
+                btn.disabled = false
+            }
+
+
+            if (phone == null || phone == "") {
+                phoneErr.innerHTML = "Phone required"
+                flag = false
+                btn.disabled = true
+            } else if (!phoneExp.test(phone)) {
+                phoneErr.innerHTML = "Invalid phone number"
+                flag = false
+                btn.disabled = true
+            }
+            else {
+                phoneErr.innerHTML = ""
+                flag = true
+                btn.disabled = false
+            }
+
+
+            if (password == null || password == "") {
+                passErr.innerHTML = "Password required"
+                flag = false
+                btn.disabled = true
+            }
+            else {
+                passErr.innerHTML = ""
+                flag = true
+                btn.disabled = false
+            }
+
+
+            if (confirmPassword == null || confirmPassword == "") {
+                cpassErr.innerHTML = "Confirm password required"
+                flag = false
+                btn.disabled = true
+            }
+            else if (password != confirmPassword) {
+                cpassErr.innerHTML = "Password not maching"
+                flag = false
+                btn.disabled = true
+            }
+            else {
+                cpassErr.innerHTML = ""
+                flag = true
+                btn.disabled = false
+            }
+
+
+            return flag
+
+
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h2>Create Account</h2>
+        <p class="subtitle">Fill in the details to register</p>
+
+        <form id="registerForm" onsubmit="return validation()">
+
+            <!-- Username -->
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username" onkeyup="validation()">
+                <span id="unameErr" style="color: red;"></span>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter email" onkeyup="validation()">
+                <span id="emailErr" style="color: red;"></span>
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="Enter phone number" onkeyup="validation()">
+                <span id="phoneErr" style="color: red;"></span>
+            </div>
+
+            <!-- Password -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password" onkeyup="validation()">
+                <span id="passErr" style="color: red;"></span>
+
+            </div>
+
+            <!-- Confirm Password -->
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm password" onkeyup="validation()">
+                <span id="cpassErr" style="color: red;"></span>
+            </div>
+
+            <button type="submit" class="register-btn" id="btn">
+                Register
+            </button>
+
+            <p class="success" id="successMessage">
+                Registration successful!
+            </p>
+
+        </form>
+
+        <p class="login-text">
+            Already have an account?
+            <a href="#">Login</a>
+        </p>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
