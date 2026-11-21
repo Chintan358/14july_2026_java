@@ -9,7 +9,7 @@
 <body>
 			<h1>Registration form</h1>
 			${msg}
-			<form action="register" method="post">
+			<form action="register" method="get">
 			<input type="text" name="uname" placeholder="Enter username">
 			<input type="text" name="email" placeholder="Enter email">
 			<input type="text" name="age" placeholder="Enter age">

@@ -18,7 +18,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class RegistrationServlet extends HttpServlet
 {
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		String uname = req.getParameter("uname");
 		String email = req.getParameter("email");
